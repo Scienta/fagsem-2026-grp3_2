@@ -2,12 +2,14 @@
 
 mkdir -p mistral
 
+source set_env.sh
+
 echo `date` > mistral/start.txt
 
 export FILE_DIR=${PWD}/mistral
 
-ollama launch 
+export PYTHONPATH=${PWD}/FILE_PATH:${PYTHONPATH}
+
+ollama launch claude --model mistral:latest
 
 echo `date` > mistral/stop.txt
-
-
