@@ -1,12 +1,12 @@
 Oppgaven er som følger:
 
-Lese inn fil med skattedata for en eller flere personer
-Tabellberegning basert på
-Lønnsinntekt for en skatteyter på Østlandet i på 42 år
-Produsere fil med beregnet skatt per år
+1. Les inn fil med skattedata for en eller flere personer
+2. Utfør tabellberegning basert på lønnsinntekt for en skatteyter på Østlandet 
+2. Produser fil med beregnet skatt per år
 
-Eksempel på input:
+Eksempel på input, med to skatteytere der det er oppgitt navn, alder og inntekt: 
 
+```
 Roger Rud
 50 år
 125 000 NOK
@@ -14,12 +14,15 @@ Roger Rud
 Per Høneeier
 42 år
 7 000 000 NOK
+```
 
-Eksempel på output
 
+Eksempel på resultatfil, der skatteyterne er listet opp med skyldig skatt:
+
+```
 Roger Rud
 20 000 NOK
 
 Per Hønseeier 
 1 000 000
-
+```
