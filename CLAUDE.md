@@ -25,6 +25,11 @@ The running shell shall be set up with PYTHONPATH=${PWD}/src
 All dependencies shall be registered in `requirements.txt` and installed in the venv
 using `pip`.
 
+**IMPORTANT:** You will be given a sub-folder where you should do your work.
+Refrain from editing not inside the sub-folder, with the exception of `requirements.txt`.
+_NEVER_ remove anything from `requirements.txt`.
+
+
 ### Important Note
 
 Since the venv and the PYTHONPATH are set, don't set these explicitely when running tools
