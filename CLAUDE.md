@@ -29,6 +29,7 @@ using `pip`.
 Refrain from editing not inside the sub-folder, with the exception of `requirements.txt`.
 _NEVER_ remove anything from `requirements.txt`.
 
+Ideally, the directory shall also be given in the environment variable `FILE_DIR`.
 
 ### Important Note
 
