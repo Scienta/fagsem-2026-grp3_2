@@ -1,3 +1,5 @@
+Oppgaven er som følger:
+
 Lese inn fil med skattedata for en eller flere personer
 Tabellberegning basert på
 Lønnsinntekt for en skatteyter på Østlandet i på 42 år
