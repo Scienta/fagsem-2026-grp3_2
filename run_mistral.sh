@@ -8,7 +8,7 @@ echo `date` > mistral/start.txt
 
 export FILE_DIR=${PWD}/mistral
 
-export PYTHONPATH=${PWD}/FILE_PATH:${PYTHONPATH}
+export PYTHONPATH=${PWD}/FILE_DIR:${PYTHONPATH}
 
 ollama launch claude --model mistral:latest
 
