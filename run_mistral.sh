@@ -10,6 +10,6 @@ export FILE_DIR=${PWD}/mistral
 
 export PYTHONPATH=${PWD}/FILE_DIR:${PYTHONPATH}
 
-ollama launch claude --model mistral:latest
+echo 'Read CLAUDE.md README.md and implement the tax calculator as described' | ollama launch claude --model mistral:latest
 
 echo `date` > mistral/stop.txt
