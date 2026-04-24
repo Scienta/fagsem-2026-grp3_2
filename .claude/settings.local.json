@@ -125,7 +125,10 @@
       "Bash(touch:*)",
       "Bash(.venv/bin/python:*)",
       "Bash(.venv/bin/pip install:*)",
-      "Bash(.venv/bin/pytest:*)"
+      "Bash(.venv/bin/pytest:*)",
+      "Bash(.venv/bin/pip list *)",
+      "Bash(/Users/kjetilvalstadsve/Development/git/fagsem-2026-grp3_2/.venv/bin/python -m pip list)",
+      "Bash(/Users/kjetilvalstadsve/Development/git/fagsem-2026-grp3_2/.venv/bin/python -m pip install -r /Users/kjetilvalstadsve/Development/git/fagsem-2026-grp3_2/requirements.txt)"
     ],
     "ask": [
       "Bash(mv:*)",

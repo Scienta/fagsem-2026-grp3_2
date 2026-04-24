@@ -3,7 +3,7 @@
 
 1. Get an overview of the tasks to be done
 2. Break down the work into clearly separated phases with 
-   clear deliverables that can be tested (if applickable)
+   clear deliverables that can be tested (if applicable)
 3. Find the optimal order of implementation of the tasks, 
    minimising the number of reads and writes (keeping the
    token consumption down)
