@@ -125,7 +125,7 @@
       "Bash(touch:*)",
       "Bash(.venv/bin/python:*)",
       "Bash(.venv/bin/pip install:*)",
-      "Bash(.venv/bin/pytest:*)",
+      "Bash(.venv/bin/pytest:*)"
     ],
     "ask": [
       "Bash(mv:*)",
