@@ -1,3 +1,5 @@
+## SE BORT FRA DENNE
+
 Første resultat, prompt til claude var
 
 ```aiignore
