@@ -1,3 +1,42 @@
+The task is to produce a command-line utility in Python that can perform the following task: 
+
+1. Read a file containing tax data for one or more persons who are wage earners in Eastern Norway.
+2. For each person, calculate tax owed. The rules for the calculation can be found in the Appendix A
+3. Output the result of the calculation for each person.
+
+The program should written from scratch as a stand-alone project, in the output directory given by the `$FILE_DIR`
+environment variable.
+
+The program should accept a single input file as an argument and produce the answer on stdout.
+
+The project directory should contain a `README.md` file with instructions on how to run the program. For evaluation
+purposes, the README file should contain a section saying when the project was initiated, and when it was completed. The
+timestamps should be in a resolution of seconds.
+
+Example input file, with two taxpayers where name, age, and income are provided:
+
+```
+Roger Rud
+50 years
+125 000 NOK
+
+Per Høneeier
+42 years
+7 000 000 NOK
+```
+
+Example result output, where the taxpayers are listed with tax owed:
+
+```
+Roger Rud
+20 000 NOK
+
+Per Hønseeier
+1 000 000
+```
+
+# Appendix A
+
 # Norwegian tax rules (simplified) – for a tax calculator
 
 > **Validity:** Income year 2024 (tax settlement 2025)
@@ -205,22 +244,3 @@ STEP 8 – Net income
 | Above the threshold | 1.0 % (municipal 0.7 % + state 0.3 %) |
 
 Wealth includes: bank deposits (100 %), shares (80 % of value), primary residence (25 % of market value), secondary residence (100 %), holiday property (30 % of value), minus debt.
-
----
-
-## 10. Important simplifications and limitations
-
-- The calculator primarily covers **wage earners**
-- **Capital tax** (share gains, dividends) is taxed at 37.84 % and is not included in this framework
-- **Self-employed** (sole proprietorships) have separate rules for personal income calculation
-- **Tax class 2** was removed from 2021
-- **Withholding tax** for foreign workers is not covered
-- All figures are for **income year 2024**
-
----
-
-## 11. References
-
-- [Skatteetaten – rates 2024](https://www.skatteetaten.no/satser/)
-- [Skatteetaten – bracket tax](https://www.skatteetaten.no/person/skatt/hjelp-til-riktig-skatt/arbeid-trygd-og-pensjon/trinnskatt/)
-- [Skatteetaten – minimum deduction](https://www.skatteetaten.no/person/skatt/hjelp-til-riktig-skatt/arbeid-trygd-og-pensjon/minstefradrag/)
